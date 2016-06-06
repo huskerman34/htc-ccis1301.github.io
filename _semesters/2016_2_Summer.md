@@ -161,7 +161,7 @@ sessions:
       -
         url: "/assignments/dev-tools/dev-tools-lab3-v1.html"
         title: "Dev Tools Lab 3"
-     -
+      -
         url: "/assignments/fan-page/fan-page-pt4-v1.html"
         title: "Make a Fan Page - Part 4"   
 
