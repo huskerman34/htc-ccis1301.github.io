@@ -1,0 +1,66 @@
+---
+layout: page
+---
+
+{% if page.students %}
+<section>
+  <h1 class="header-bar">Student Directory</h1>
+  <p class="text-center"><a href="{{ page.students }}">Current Students</a></p>
+</section>
+{% endif %}
+
+{% for session in page.sessions %}
+<section id="session{{ forloop.index }}">
+  <h1 class="header-bar">Session {{ forloop.index }}</h1>
+  <div class="row text-center">
+  <!-- Lecture Info -->
+    <div class="col-md-4">
+    <h2>Lecture &amp; Weekly Assignments</h2>
+    {% for lecture in session.lectures %}
+    <p>{{ lecture.title }}
+      {% if lecture.slides_url or lecture.notes_url %} &nbsp;( {% endif %}
+      {% if lecture.slides_url %}
+      <a href="{{ lecture.slides_url | prepend: site.baseurl }}">Slides</a>
+      {% endif %}
+      {% if lecture.slides_url and lecture.notes_url %}
+      &nbsp;|&nbsp;
+      {% endif %}
+      {% if lecture.notes_url %}
+      <a href="{{ lecture.notes_url | prepend: site.baseurl }}">Notes</a>
+      {% endif %}
+      {% if lecture.slides_url or lecture.notes_url %} )&nbsp; {% endif %}
+    </p>
+    {% endfor %}
+    {% if lecture.practice_url %}
+    <p><a href="{{ lecture.practice_url | prepend: site.baseurl }}">Practice Assignment</a>
+    {% endif %}
+
+    {% for item in session.assignments %}
+    <p><a href="{{ item.url | prepend: site.baseurl }}"> {{ item.title }}</a></p>
+    {% endfor %}
+
+    </div>
+
+    <!-- Reading Assignment -->
+    {% if session.readings %}
+    <div class="col-md-4">
+    <h2>Reading</h2>
+    {% for item in session.readings %}
+      <p>{{ item.title }} {% if item.url %}(<a href="{{ item.url | prepend: site.baseurl }}">Notes</a>){% endif %}</p>
+    {% endfor %}
+    </div>
+    {% endif %}
+
+    <!-- Project Assignment -->
+    {% if session.projects or session.assignments or session.quiz%}
+    <div class="col-md-4">
+    <h2>Quizzes &amp; Projects</h2>
+    {% for quiz in session.quizzes %}<p>{{ quiz.title }} (on D2L)</p>{% endfor %}
+    {% for project in session.projects %}
+    <p><a href="{{ project.url | prepend: site.baseurl }}"> {{ project.title }}</a></p>
+    {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</section>
+{% endfor %}
