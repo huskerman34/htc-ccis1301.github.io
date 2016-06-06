@@ -81,4 +81,4 @@ How would you find out how long it took to load a resource that this web page re
 ## Submit Assignment
 Make sure that you have labeled each task in your document and have saved it as a MS Word or RTF file. Any file type that I cannot read will receive no credit for the assignment.  
 
-Upload the file to the Dev Tools Lab dropbox on D2L.
+Upload the file to the dropbox on D2L.

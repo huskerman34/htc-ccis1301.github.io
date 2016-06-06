@@ -53,4 +53,4 @@ Which of the elements contained in the nav do not have overrides for tablet or m
 ## Submit Assignment
 Make sure that you have labeled each task in your document and have saved it as a MS Word or RTF file. Any file type that I cannot read will receive no credit for the assignment.  
 
-Upload the file to the Dev Tools Lab dropbox on D2L.
+Upload the file to the dropbox on D2L.
