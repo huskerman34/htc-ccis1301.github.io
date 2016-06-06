@@ -1,8 +1,6 @@
 ---
 semester: "Spring 2016"
 
-students: "http://htc-ccis1301.github.io/students/"
-
 sessions:
   - #Session 1
     lectures:

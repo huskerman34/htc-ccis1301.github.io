@@ -1,5 +1,5 @@
 ---
-semester: "Spring 2016"
+semester: "Summer 2016"
 
 students: "http://htc-ccis1301.github.io/students/"
 
@@ -25,7 +25,7 @@ sessions:
     assignments:
       -
         url: "/assignments/chat-setup-v1.html"
-        title: "Git Hub Intro - Students Assignment"
+        title: "Slack Chat Setup Assignment"
       -
         url: "/assignments/validation-lab-v1.html"
         title: "Git Hub Intro - Students Assignment"
