@@ -24,6 +24,9 @@ sessions:
 
     assignments:
       -
+        url: "/assignments/chat-setup-v1.html"
+        title: "Git Hub Intro - Students Assignment"
+      -
         url: "/assignments/validation-lab-v1.html"
         title: "Git Hub Intro - Students Assignment"
       -
