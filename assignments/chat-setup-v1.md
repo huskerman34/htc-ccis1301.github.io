@@ -11,10 +11,6 @@ You'll want to click this link to join: https://htc-ccis1301.slack.com/signup
 
 You will need to use your my.hennepintech.edu email account to join our team.  
 
-<div class="alert alert-warning" role="alert">
-Note:  Slack is a 3rd party service and is not affiliated with Hennepin Technical College. That means that there is no support for this tool through the HTC or MNSCU help desk. If you need help getting signed up or with using the tool, you can contact me.  However, if you forget your password you will need to use their password reset service (which should email your school email) to regain access.
-</div>
-
 
 ## Configure your profile
 Once you are signed up and in slack, the first thing that you should do is update your profile. Please update your profile with:

@@ -21,4 +21,4 @@ Before submitting the assignment, you should double check that your page is vali
 
 After you have pushed your changes to your personal GitHub repository, make sure to validate that the page has published correctly.  You can find the URL under settings.  Be sure to copy this URL and paste it in the repository description.
 
-When complete, the assignment must be submitted using a GitHub pull request with a screen shot of that pull request placed in the D2L dropbox.  Pay attention to the assignment due date found on D2L.
+When complete, the assignment must be submitted using a GitHub pull request with a screen shot of that pull request placed in the D2L dropbox.  
