@@ -9,7 +9,7 @@ sessions:
       -
         title: "Intro to GitHub"
         notes_url: "/lecture_notes/gitHub.html"
-        slides_url: "/assets/slides/html_github.pdf"
+        #slides_url: "/assets/slides/html_github.pdf"
 
     readings:
       -
