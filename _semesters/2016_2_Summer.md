@@ -27,7 +27,7 @@ sessions:
         url: "/assignments/chat-setup-v1.html"
         title: "Slack Chat Setup Assignment"
       -
-        url: "/assignments/validation-lab-v1.html"
+        url: "/assignments/github-students-v1.html"
         title: "Git Hub Intro - Students Assignment"
       -
         url: "/assignments/validation-lab-v1.html"
