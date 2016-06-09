@@ -37,7 +37,7 @@ When you clone a repository for class, it is important that you do it from your 
 1. Click on the students link to go to the repository page.
 
 2. Copy the URL from the repository page.  
-  <img src="../assets/images/s1/github_clone_url.png" alt="GitHub page snippet showing the location of the clone url.">
+  <img src="../assets/images/s1/github_clone_url_updated.png" alt="GitHub page snippet showing the location of the clone url.">
 
 3. Next we leave the browser and go to the command prompt.  On Windows, you'll want to use  GitShell which is part of GitHub for Windows.  On Mac, you can just use Terminal, but you may need to install git.  I will refer to this generically as the shell.  (See the install info at the bottom to set this up on your own computer.)
 
