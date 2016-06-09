@@ -45,6 +45,8 @@ When you clone a repository for class, it is important that you do it from your 
 
 5. Now if you list your files/directories, you will see a students directory in that location.
 
+6. When working with the repository, you need to be inside the git repository directory.  To go into a directory use the change directory command `cd`.  When you enter the command, you need to add the directory name after the cd.  So enter `cd students` to go into the students directory.
+
 
 ###  Make Changes
 Now that you've got a copy, you can make changes to the original files.  You edit the files as you would any other code, using whatever editor you prefer.  (In the classroom, we have [Brackets](http://brackets.io/) installed for you.)  When you're ready to save a change, you'll make a commit.
