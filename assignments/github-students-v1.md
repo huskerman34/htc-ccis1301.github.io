@@ -41,7 +41,8 @@ When you clone a repository for class, it is important that you do it from your 
 
 3. Next we leave the browser and go to the command prompt.  On Windows, you'll want to use  GitShell which is part of GitHub for Windows.  On Mac, you can just use Terminal, but you may need to install git.  I will refer to this generically as the shell.  (See the install info at the bottom to set this up on your own computer.)
 
-4. In the shell, go to the location where you want the repository to be pulled down.  Then use the <code>git clone</code> command to get a local copy.<br><code>$ git clone &lt;your-clone-url-here&gt;</code>
+4. In the shell, go to the location where you want the repository to be pulled down.  Then use the <code>git clone</code> command to get a local copy.
+<br>`$ git clone <your-clone-url-here>`
 
 5. Now if you list your files/directories, you will see a students directory in that location.
 
@@ -74,9 +75,9 @@ To get your changes from your local repository to the GitHub repository you do a
 
 1. Before you push your changes, you should check that the branch you are on matches the remote branch you want to push to. It will often be master in the real world, but for many of our class assignments, which are web pages we want GitHub to host for us, it will be gh-pages.  You can see which branch you are working on by using the <code>git branch</code> command.
 
-2. If your local and remote branches match, then you can just say <code>git push</code> and everything should go up to GitHub.
+2. If your local and remote branches match, then you can just say `git push` and everything should go up to GitHub.
 
-3. If your local and remote branches are different, then you need to say which remote branch you want to push to:<br><code>$ git push origin <remote-branch-here></code>
+3. If your local and remote branches are different, then you need to say which remote branch you want to push to:<br>`$ git push origin <remote-branch-here>`
 
 4.  Check the GitHub repository page in the browser to make sure you got the changes up successfully.  
   <img src="../assets/images/s1/github_pushed_changes.jpg" alt="GitHub page snippet showing the time of the last update.">
