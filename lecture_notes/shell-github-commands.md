@@ -71,7 +71,7 @@ $ git clone <clone-url>
 ### Status
 The `git status` command will give you the current status of your local repository. It will show you if you have changes that are untracked (not added), added and ready for commit, and how different your local repository is from the remote repository that you cloned from.
 
-To add all changes, you can use this shortcut:
+For example:
 {% highlight bash %}
 $ git status
 On branch gh-pages
