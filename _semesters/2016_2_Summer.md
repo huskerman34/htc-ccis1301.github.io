@@ -9,7 +9,9 @@ sessions:
       -
         title: "Intro to GitHub"
         notes_url: "/lecture_notes/gitHub.html"
-        #slides_url: "/assets/slides/html_github.pdf"
+      -
+        title: "Shell & GitHub Command Summary"
+        notes_url: "/lecture_notes/shell-github-cmds.html"
 
     readings:
       -
