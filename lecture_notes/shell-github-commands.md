@@ -27,9 +27,9 @@ The `ls`, or list, command will list all of the files and directories inside the
 
 {% highlight bash %}
 $ ls
-Gemfile        _data		      _sass		        javascripts
-README.md	     _includes	    assets		      stylesheets
-_config.yml	   _layouts	      index.html
+Gemfile        _data          _sass           javascripts
+README.md      _includes      assets          stylesheets
+_config.yml    _layouts       index.html
 {% endhighlight %}
 
 <img src="../assets/images/shell-github-cmds/terminal-ls-cmd.png" alt="Terminal showing ls command">
@@ -134,6 +134,8 @@ Total 5 (delta 3), reused 0 (delta 0)
 To https://github.com/mbMosman/students.git
    182b32c..2823398  gh-pages -> gh-pages
 {% endhighlight %}
+
+Notice the output include a status to show it is 100% done and where it pushed the changes to.
 
 If your local and remote branches are different, you can choose which remote branch to push to:
 {% highlight bash %}
