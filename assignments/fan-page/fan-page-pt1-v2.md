@@ -13,8 +13,9 @@ The GitHub repository for this assignment is [fan-page](https://github.com/htc-c
 The repository is initially empty, except for the standard Readme.md and .gitignore files and an empty index.html file.
 
 ## Requirements
-For this assignment, you must update the index.html file so that it contains valid HTML.
+For this assignment, you must update the index.html file so that it contains valid HTML, and add an external stylesheet with valid CSS.
 
+### HTML
 The content of the page should include:
 
 - The name of your favorite thing you are building the site for
@@ -27,6 +28,19 @@ The content of the page should include:
 - An email contact link for you in the footer.  To avoid putting your real email on the page you can use yourFirstName@yourLastName.com or something like that, so long as it is a proper email link.
 
 Do not neglect the <head> section just because it is not visible on the web page. You should include a title and the charset.
+
+### CSS
+Add a new external stylesheet called style.css to your project. (Your project is the fan-page directory and all the files in it that make up your website.)
+
+Update your index.html page to use your new stylesheet.
+
+Update the CSS to include (at a minimum) the following items:
+
+- a new document background color
+- a new default document text color
+- an alternate text color for one level of headings (h1, h2, etc.)
+- an alternate background color for some element on the page that is identified using an id
+- an alternate text color that is applied to some text using a <span> element and a style class
 
 ## Submit the Assignment
 Before submitting the assignment, you should double check that your page is valid using the W3C HTML Validator. Validation errors will reduce the points received for your assignments.
