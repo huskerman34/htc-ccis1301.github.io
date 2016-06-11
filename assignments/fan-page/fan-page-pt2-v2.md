@@ -15,35 +15,32 @@ The GitHub repository for this assignment is [fan-page](https://github.com/htc-c
 Unless you are working on a different computer or have deleted the files, you also do not need to clone the repository again. Continue working with the same directory and files that you worked with previously. Just use the git add, commit and push commands when you are done to update GitHub.
 
 ## Requirements
-For this assignment, you will design two alternate CSS files to improve the display of your web fan site.  
 
-### Style 1
-Add a new external stylesheet called style.css to your project. (Your project is the fan-page directory and all the files in it that make up your website.)
+### HTML Updates
+Add a small thumbnail image that is also a link to a larger version of the same image.
 
-Update your index.html page to use your new stylesheet.
+### CSS Updates
+Make the following additions to your CSS:
 
-Update the CSS to include (at a minimum) the following items:
+- a different font (use a font family) for the body text in each stylesheet. See the note on CSS Font Stack below.
+- a different font for the headings
+- a italics and smaller, but still readable, font size for the footer text
+- use a different list marker
+- bold and change the color of the link to the other website
+- add margins and padding to add spacing to your pages.  
+- make your main heading (header/h1) stand out by giving it a contrasting background color with rounded corners
+- add drop-shadow for the text one level of headings
+- add a background image to some element on the page
 
-- a new document background color
-- a new default document text color
-- an alternate text color for one level of headings (h1, h2, etc.)
-- an alternate background color for some element on the page that is identified using an id
-- an alternate text color that is applied to some text using a <span> element and a style class
 
-Check the display of your page in the browser to ensure that it looks as you expect.
+### CSS Font Stack
+Use the [CSS Font Stack](http://www.cssfontstack.com/) site to help you choose a good font family list. This site provides font availability information for different operating systems and allows you to copy a pre-configured list font-family list for commonly used fonts. It is a great resource to bookmark and use.
 
-Then validate your CSS file using the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
-### Style 2
-Make a copy of your index.html page in the same directory and name it index-alt.html.
+## Submit the Assignment
+Before submitting the assignment, you should double check that your both of your HTML and CSS pages are valid by using the appropriate W3C Validator.  
 
-Make a copy of your style.css file and name it style-alt.css.
-
-Update your index-alt.html page to refer to the style-alt.css file.
-
-Modify your style-alt.css file to use different colors than the original file.  Do not add or remove any other CSS.
-
-Check the display of your alternate page in the browser to ensure that it looks as you expect, and validate your alt CSS file using the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
+When complete, the assignment must be submitted using a GitHub pull request with a screen shot of that pull request placed in the D2L dropbox.  Pay attention to the assignment due date found on D2L.
 
 
 ## Submit the Assignment
