@@ -20,13 +20,10 @@ This assignment includes the case study work from both Chapter 2 & 4 in your tex
 ## Introduction
 The case study projects are included at the end of most chapters of your text book. Generally speaking, you will follow the instructions in the textbook, but you should check here for notes that have you modify or change parts of the assignment. I will add general information and tips here, but I *__may__* also modify the assignment to prevent re-work later or to better match current best practices.
 
-Please read the introduction to the case study found at the bottom of page 61. At the top of page 62, you can see the planned site map for the website and the initial wireframe layout of the pages.
-
-We will treat this case study much like a real world iterative web development project.  You can imagine me as your go-between with the actual client.  I will handle getting the details worked out while you handle the coding work.  
-
-We will deliver something (your completed assignment) to the client on a regular schedule.  The first deliverable is due in only one week, but is only a small amount of the final site.
-
 <iframe width="420" height="315" src="https://www.youtube.com/embed/jVDqs_CgueM" frameborder="0" allowfullscreen></iframe>
+
+We will treat this case study much like a real world iterative web development project.  You can imagine me as your go-between with the actual client.  I will handle getting the details worked out while you handle the coding work. We will deliver something (your completed assignment) to the client on a regular schedule.  The first deliverable is due in only one week, but is only a small amount of the final site.
+
 
 ## GitHub
 To do this project, you will begin by forking and cloning the ptCaseStudy repository from our class GitHub page.  This repository includes the images and media files that you will use later for the project, but you will add all of the html and css files.
@@ -37,6 +34,9 @@ You will only need to fork the repository once, then you will continue updating 
 
 
 ## Working with Brackets
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/jLyQxeMPRu8" frameborder="0" allowfullscreen></iframe>
+
 When you use Brackets, be sure that you are opening the entire folder (look for the Open Folder command in the File menu) and not just opening single files. This is generally required for the Live Preview feature to work correctly, and will help you to get the file names correct as you build links in your pages.
 
 The Live Preview feature requires the Chrome browser to work. You can start it from the menu or from the lightning bolt icon on the right side of the application window. Live preview allows you to make changes to your HTML and/or CSS and see the results immediately in the browser without needing to save your file.
@@ -47,7 +47,7 @@ The Live Preview feature requires the Chrome browser to work. You can start it f
 
 It will also put a blue outline around the section of the page that you are working on to help call attention to it.  The blue outline move based on your cursor position in the editor.  It will not be shown on your final page when opened outside of Brackets.
 
-## Beautify: Code Readability
+### Beautify: Code Readability
 Another extremely handy feature of brackets is a plug-in or extension called Beautify. More information on Plugins is available on the [Brackets Wiki: Extensions](https://github.com/adobe/brackets/wiki/Brackets-Extensions). Use the extension manager to search for and install Beautify. This will add Beautify as an option in your right-click context menu as well as the Edit menu.  There is also an option in the Edit menu to Beautify on Save.  I highly recommend this.
 
 Please use Beautify to help format your code for readability before turning it in. Clear and consistent use of indentation helps prevent errors and allows me to give better feedback on your work.  Points for assignments may be reduced if I find your files hard to read or comment on.  
