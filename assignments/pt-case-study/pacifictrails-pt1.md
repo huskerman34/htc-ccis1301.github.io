@@ -24,7 +24,9 @@ Please read the introduction to the case study found at the bottom of page 61. A
 
 We will treat this case study much like a real world iterative web development project.  You can imagine me as your go-between with the actual client.  I will handle getting the details worked out while you handle the coding work.  
 
-We will deliver something (your completed assignment) to the client on a regular schedule, roughly every two weeks.  The first deliverable is due in only one week, but you might imagine that I spent the first week discussing with the customer - things like design, layout, content and colors. Now, you've got the second week to work up the initial look for the first two pages.
+We will deliver something (your completed assignment) to the client on a regular schedule.  The first deliverable is due in only one week, but is only a small amount of the final site.
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/jVDqs_CgueM" frameborder="0" allowfullscreen></iframe>
 
 ## GitHub
 To do this project, you will begin by forking and cloning the ptCaseStudy repository from our class GitHub page.  This repository includes the images and media files that you will use later for the project, but you will add all of the html and css files.
@@ -59,7 +61,7 @@ Remember to treat all file names as case sensitive. If you work on a Windows com
 
 Make sure to note the layout of the contact information in the home page image. There should be a blank line between the address and phone number. Also note the company name is considered part of the contact information.
 
-For the Yurts page, be careful with the creation of the description list. You must put all of the <dt> and <dd> elements inside (as children of) the <dl> element. This is another common mistake.
+For the Yurts page, in step 3c, the book asks you to use the `<dl>`, `<dd>`, and `<dt>` tags in Chapter 2, but then convert that to `<h3>` and `<p>` tags later on.  It is easier (and more semantically correct) to just start by using the <h3> tags for the headings and use <p> tags for the text that follows.
 
 Test your links!  The link from the Home to the Yurts page should work and the link from Yurts to the Home page should work.  Make sure these are relative links and do not include any drive letters from your local computer.
 
@@ -75,7 +77,9 @@ It is important that you continue working in the same directory where you cloned
 
 The instructions at the end of Chapter 4 have you add CSS to improve the look of the pages you created in Chapter 2. Again, this is pretty straightforward, but there are a few things to watch out for.
 
-Make sure that you correctly code the <link> tag or you will not see any results from adding the CSS.  A relative path should be used. Again, no drive letters should be present in the path.
+Make sure that you correctly code the `<link>` tag or you will not see any results from adding the CSS.  A relative path should be used. Again, no drive letters should be present in the path.
+
+If you have used the `<h3>` and `<p>` tags, make sure to set up the CSS for the <h3> to be dark blue in task 2 not the `<dt>` tag.
 
 Pay attention to the instructions for the resort style class. This requires HTML tags be added to the html file in addition to the changes in the CSS. The intent of this is to change the display of the company name so that it stands out on the page. That means that it should be used every time the company name is used in the web page text through out the entire web site.  
 
