@@ -23,7 +23,7 @@ Update your web page to include a <div> that includes a small thumbnail image th
 ### Both Styles
 Update your CSS files (both the main and alternate) to include (at a minimum) the following items:
 
-- a different font (use a font family) for the body text in each stylesheet
+- a different font (use a font family) for the body text 
 - a different font for the headings
 - a smaller, but still readable, font size for the footer text
 - use a different list marker for each stylesheet
