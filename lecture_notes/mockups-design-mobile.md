@@ -26,15 +26,40 @@ Regardless of the level of detail, it is important that the customer can look at
 While design can be done with paper, there are many tools available to support the wireframe and mockup design process.  
 
 - [25 Free Mockup and Wireframe Tools for Web Designers](http://codecondo.com/free-wireframe-tools/)
-- [Mashable: 9 Excellent Tools for Design Mockups](http://mashable.com/2012/06/07/mockup-tools/#NFXeCEzg_Sqn)).
+- [Mashable: 9 Excellent Tools for Design Mockups](http://mashable.com/2012/06/07/mockup-tools/#NFXeCEzg_Sqn).
 
 ## Mobile First Design
 A hot topic recently is the notion of designing for mobile devices first. Until recently, the focus for web designers was the presentation of the web site on a computer monitor. As the spread of smart phones and mobile devices with internet access grew, people began to consider how websites might be viewed on these smaller devices, but that was historically secondary to the desktop view.
 
 Today, the mobile phone is increasingly the main (or in some parts of the world only) way people access the internet. Some people do not have access to a desktop or laptop computer at all, but do have and use a smart phone to access the web.  This growing trend to use a mobile device as the primary path to access the internet is resulting in a shift to focus on designing <em>first</em> for mobile devices and then secondarily enhancing that design for larger displays.
 
-In the next session, we will begin to explore responsive design which allows a website to flex and change its display based on the available display size. We will first learn how to implement this type of responsive design using media queries. Later in the semester we will explore a web framework that provides a library of CSS styles to manage the responsive layout for us.
+In this session, we will begin to explore responsive design which allows a website to flex and change its display based on the available display size. We will first learn how to implement this type of responsive design using media queries. Later in the semester we will explore a web framework that provides a library of CSS styles to manage the responsive layout for us.
 
 Responsive websites are only one way to design and target a site for mobile device users. It is also possible to build an independent web site that mobile users are directed to, based on information sent about the client that is included in the web page request. A mobile phone apps might also be developed for mobile users, replacing the need for them to view a website through the device's web browser.
 
 Responsive sites have the advantage of keeping everything in one place. There is only one copy of the web site that adjusts to various device sizes.  However, designing a responsive site can pose challenges as well, and might result in design compromises that would not have to be made for a mobile only site or a mobile application.
+
+In the textbook, the examples show desktop first development, where the CSS is first written for a desktop display and then altered using media queries for tablet and mobile.  An alternate approach is to design the CSS "mobile first" for the display on smaller devices and then use media queries to alter that display for larger devices.  Both approaches are supported by the CSS media queries, so be careful to look at the screen sizes that the media queries apply to.  Don't just assume that the CSS that is not inside a media query must be for the desktop display of a site.
+
+## Single Page Design
+A current trend is a single page design, where a single page is sectioned by content into <em>slide</em> or flip-book like areas that you scroll down to.  There is also generally a navigation tool that allows you to quickly move between sections.  This is often used for a main landing page for the site and there may be links to other pages found within that content or in the footer.  This style is often used with mobile first design and sometimes includes "optional" items to fill side space on larger displays.
+
+#### Example 1 - The home page for [Heroku](https://www.heroku.com/)
+
+This site has typical navigation along the top, but the layout of the homepage frames each section to be visually separate as you scroll down the page.
+
+  <img src="{{ "/assets/images/ch3/design-heroku1.png" | prepend: site.baseurl }}" alt="Screen capture of the Tumblr welcome page." />
+
+Scrolling down makes me think of *streaming* content.  It flows from one section to the next, often aided with small animations.
+
+  <img src="{{ "/assets/images/ch3/design-heroku3.png" | prepend: site.baseurl }}" alt="Screen capture of the third section of the Heroku page, obtained by scrolling further down." />
+
+#### Example 2 - The welcome page for [Tumblr](https://www.tumblr.com/)
+
+Notice the typical banner and navigation are missing from the top of the page.
+
+  <img src="{{ "/assets/images/ch3/design-tumblr1.png" | prepend: site.baseurl }}" alt="Screen capture of the Tumblr welcome page." />
+
+Scrolling down is like flipping a page.  Notice the dots down the left side that indicate where you are, and can be clicked to move forward and back.  
+
+  <img src="{{ "/assets/images/ch3/design-tumblr2.png" | prepend: site.baseurl }}" alt="Screen capture of the next Tumblr page, obtained by scrolling down." />
