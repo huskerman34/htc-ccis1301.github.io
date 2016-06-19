@@ -39,7 +39,34 @@ Responsive websites are only one way to design and target a site for mobile devi
 
 Responsive sites have the advantage of keeping everything in one place. There is only one copy of the web site that adjusts to various device sizes.  However, designing a responsive site can pose challenges as well, and might result in design compromises that would not have to be made for a mobile only site or a mobile application.
 
+### Media Query Design
 In the textbook, the examples show desktop first development, where the CSS is first written for a desktop display and then altered using media queries for tablet and mobile.  An alternate approach is to design the CSS "mobile first" for the display on smaller devices and then use media queries to alter that display for larger devices.  Both approaches are supported by the CSS media queries, so be careful to look at the screen sizes that the media queries apply to.  Don't just assume that the CSS that is not inside a media query must be for the desktop display of a site.
+
+Another alternate style for media queries is to organize everything by element, not device size.  So while the textbook shows many different rules inside one media query, the same design could be accomplished by having separate media queries for each selector.  This allows you to group all the CSS for a specific selector together.  
+
+An example follows: 
+
+{% highlight css %} 
+footer { margin-left: 190px; }
+
+@ media only screen and (max-width: 64em) {
+   footer { margin-left: 0; }
+}
+
+@ media only screen and (max-width: 37.5em) {
+   footer { font-size: 90% }
+}
+
+nav { 
+  float: left;
+}
+
+@ media only screen and (max-width: 64em) {
+  nav { 
+    float: none;
+  }
+}
+{% endhighlight %}
 
 ## Single Page Design
 A current trend is a single page design, where a single page is sectioned by content into <em>slide</em> or flip-book like areas that you scroll down to.  There is also generally a navigation tool that allows you to quickly move between sections.  This is often used for a main landing page for the site and there may be links to other pages found within that content or in the footer.  This style is often used with mobile first design and sometimes includes "optional" items to fill side space on larger displays.
