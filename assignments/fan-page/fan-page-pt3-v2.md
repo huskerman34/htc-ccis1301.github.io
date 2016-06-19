@@ -28,7 +28,7 @@ Update your CSS files (both the main and alternate) to include (at a minimum) th
 - a smaller, but still readable, font size for the footer text
 - use italics for the footer text
 - use a different list marker for each stylesheet
-- bold and increase the font size for your link to the other page/style
+- bold and increase the font size for your link to the other web page
 - use a background image configured for the body
 - use a solid background color for the paragraphs content so that they are more readable over the background image.
 
