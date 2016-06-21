@@ -47,9 +47,3 @@ When complete, the assignment must be submitted using a GitHub pull request with
 Before submitting the assignment, you should double check that your both of your HTML and CSS pages are valid by using the appropriate W3C Validator.  
 
 When complete, the assignment must be submitted using a GitHub pull request with a screen shot of that pull request placed in the D2L dropbox.  Pay attention to the assignment due date found on D2L.
-
-
-## Wrap-up
-Notice that the same HTML content is displayed differently, just by using a different CSS file. While our CSS for this exercise is rather simple, this illustrates the benefits and power of CSS.
-
-Take some time to visit the [CSS Zen Garden](http://www.csszengarden.com/), where this same principle is applied in a much more dramatic way. An interesting way to contribute to the chat room this week might be to share your favorite Zen Garden design.
