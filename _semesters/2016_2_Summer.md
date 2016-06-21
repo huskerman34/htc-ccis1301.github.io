@@ -75,7 +75,7 @@ sessions:
     lectures:
       -
         title: "More GitHub"
-        notes_url: "/lecture_notes/devTools.html"
+        notes_url: "/lecture_notes/moreGitHub.html"
 
     readings:
       -
