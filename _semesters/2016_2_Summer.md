@@ -100,7 +100,7 @@ sessions:
         url: "/assignments/dev-tools/dev-tools-lab2-v1.html"
         title: "Dev Tools Lab 2"
       -
-        url: "/assignments/fan-page/fan-page-pt2-v1.html"
+        url: "/assignments/fan-page/fan-page-pt2-v2.html"
         title: "Make a Fan Page - Part 2"    
 
 
@@ -132,7 +132,7 @@ sessions:
         url: "/assignments/web-design/web-design-trends.html"
         title: "Web Design Trends"
       -
-        url: "/assignments/fan-page/fan-page-pt3-v1.html"
+        url: "/assignments/fan-page/fan-page-pt3-v2.html"
         title: "Make a Fan Page - Part 3"   
 
   - # Week 5
