@@ -34,6 +34,8 @@ On the next page, you need to name the repository, decide if it will be public o
 
 Click the green "Create Repository" button.
 
+If you chose to initialize on GitHub, you can now clone the repository and follow the same steps you would normally to add files, commit and push them to GitHub.
+
 If you did not check the box to initialize on GitHub, the next screen gives you the commands to initialize the repository on your computer.  
 
   <img src="{{ "/assets/images/shell-github-cmds/github-new-repo-cmds.png" | prepend: site.baseurl }}" alt="Screen capture showing commands to initialize locally." />
@@ -42,4 +44,4 @@ Go to the GitShell (or terminal) and go into the directory that contains your fi
 
 If you already have a readme file, you can skip the echo command and begin with `git init`.  The `git init` command is used to initialize a new git repository.  
 
-Once you have initialized the repository all of the other git commands that you have learned such as `git status`, `git add`, `git commit`, etc. will work in this directory.  However before you can push, you need to tell it where to push too.  That is what the `git remote add origin` command does.  Just copy that one from GitHub.
+Once you have initialized the repository all of the other git commands that you have learned such as `git status`, `git add`, `git commit`, etc. will work in this directory.  However before you can push, you need to tell it where to push to.  That is what the `git remote add origin` command does.  Just copy that one from GitHub.
