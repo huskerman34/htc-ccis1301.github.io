@@ -20,11 +20,11 @@ For this assignment, you will continue work with your alternate fan site styles.
 ### Add an image
 Update your web page to include an a small image with a caption that is also a link to a larger version of the same image.
 
-### Both Styles
-Update your CSS files (both the main and alternate) to include (at a minimum) the following items:
+### Style Updates
+Update your CSS file to include (at a minimum) the following items:
 
-- style the image and caption as a "poloroid" style image (similar to page 251, Fig 8.8 but with slightly larger borders look at examples of poloroids on the internet if you are not familiar with what they look like)
-- a different font (use a font family) for the body text 
+- style the image and caption as a "Polaroid" style image (similar to page 251, Fig 8.8 but with slightly larger borders look at examples of Polaroids on the internet if you are not familiar with what they look like)
+- a different font (use a font family) for the body text
 - a different font for the headings
 - a smaller, but still readable, font size for the footer text
 - use italics for the footer text
