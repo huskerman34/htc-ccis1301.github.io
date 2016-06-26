@@ -15,7 +15,7 @@ The GitHub repository for this assignment is [fan-page](https://github.com/htc-c
 Unless you are working on a different computer or have deleted the files, you also do not need to clone the repository again. Continue working with the same directory and files that you worked with previously. Just use the git add, commit and push commands when you are done to update GitHub.
 
 ## Requirements
-For this assignment, you will continue work with your alternate fan site styles.  
+For this assignment, you will continue work with your fan site.  
 
 ### Add an image
 Update your web page to include an a small image with a caption that is also a link to a larger version of the same image.
