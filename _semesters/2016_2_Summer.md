@@ -193,8 +193,8 @@ sessions:
 
     assignments:
       -
-        url: "/assignments/fan-page/fan-page-pt5-v1.html"
-        title: "Make a Fan Page - Part 5"   
+        url: "/assignments/fan-page/fan-page-pt5-v2.html"
+        title: "Make a Fan Page - Part 5 (Final)"   
       -
         url: "/assignments/accessibility-test.html"
         title: "Accessibility Test"
