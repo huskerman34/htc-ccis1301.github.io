@@ -37,6 +37,15 @@ Adding the Reservations page with the form is pretty straightforward. However yo
 ## Chapter 11 - Tips
 The addition of the home page video and the nav transition is also fairly straightforward, but many students struggle with the addition of the the image gallery. *Make sure to allow sufficient time for this work.*
 
+Images & Captions:
+
+- photo2.jpg - Rocky Coastline
+- photo3.jpg - Clouds Moving in on the Coast
+- photo4.jpg - Waterfall Near Big Sur
+- photo6.jpg - Sunset on the Coast
+
+Use photo2 as the “placeholder” image on the left, faded out as initial display.  Then on hover, show the larger image for the thumbnail hovered in place of that placeholder image.
+
 It can be very helpful to first work through the Hands On Practice 11.8 on pages 368-369. Make small changes and test as you complete each step. The gallery will look messy until all of the CSS is added, so it is helpful to see the starting point and understand how each change should alter that along the way. If you work through this first with an example that you have solution files for, the gallery in the case study will go much smoother.
 
 ## Chapter 12 - Tips
