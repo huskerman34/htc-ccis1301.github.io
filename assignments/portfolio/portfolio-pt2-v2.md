@@ -1,6 +1,10 @@
 ---
 title: Personal Portfolio - Part 2
 ---
+## GitHub
+The GitHub repository for this assignment is [portfolio](https://github.com/htc-ccis1301/portfolio).
+
+The repository is initially empty, except for the standard Readme.md and .gitignore files.  Make sure to add an index.html file, so that your main page displays by default.
 
 ## Grading
 This assignment is worth 100 points and will be graded as follows:
