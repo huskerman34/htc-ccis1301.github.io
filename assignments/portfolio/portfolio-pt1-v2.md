@@ -65,3 +65,8 @@ Optionally, you may also submit an outline of the site focusing mainly on HTML a
 Consider what we did with Ms. B's website.  It looked pretty ho-hum and standard, right up until that last few minutes as we started tweaking the CSS.  Get the HTML foundation in place, use default Bootstrap components, and later work on making the style unique.
 
 Remember not to get caught up in the content itself.  Use [Lorem ipsum](http://www.lipsum.com/) text if needed to avoid getting caught up writing. Use placeholder images, or just a `<div>` with a size, fill and "Image TBD" text for now.  The details can come later. I'm grading on page structure and style, the HTML/CSS and use of Bootstrap, not the personal site content.  
+
+## GitHub
+The GitHub repository for this assignment is [portfolio](https://github.com/htc-ccis1301/portfolio).
+
+The repository is initially empty, except for the standard Readme.md and .gitignore files.  Make sure to add an index.html file, so that your main page displays by default.
